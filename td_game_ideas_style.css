@@ -1,0 +1,81 @@
+@charset "utf-8";
+ #centerbox {
+     padding-top: 10px;
+     width: 100%;
+     text-align: center;
+     height: 550px;
+}
+ #innerbox {
+     font-family: sans-serif;
+     font-size: 18px;
+     border: 4px solid #111;
+     background-color: rgba(255,255,255,0.05);
+     width: 60%;
+     height: 100%;
+     margin: auto;
+     padding: 20px;
+}
+ #leftbox {
+     width: 47%;
+     height: 100%;
+     float: left;
+}
+ #gamedesc {
+     padding: 0px 0px 20px 0px;
+}
+ #glorkwitch {
+     border: 4px solid #111;
+}
+ #rightbox {
+     width:47%;
+     height: 100%;
+     float: right;
+     text-align:left;
+}
+ #bottom-nav {
+     clear:both;
+     padding-bottom: 20px;
+}
+ #larrow {
+     float: left;
+}
+ #rarrow {
+     float: right;
+}
+ #gam1 {
+     padding: 20px 20px 20px 20px;
+}
+ #buttons {
+     padding: 3px 3px 3px 3px;
+}
+ .pushable {
+     background: #8f0e35;
+     border: none;
+     padding: 0;
+     cursor: pointer;
+}
+ .front {
+     display: block;
+     padding: 12px 25px;
+     font-size: 1.25rem;
+     background:#f72c51;
+     color: white;
+     transform: translateY(-4px);
+}
+ .pushable:active .front {
+     transform: translateY(-2px);
+}
+ .pushable:focus:not(:focus-visible) {
+     outline: none;
+}
+ .front {
+     transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+ .pushable:hover .front {
+     transform: translateY(-6px);
+     transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+ .pushable:active .front {
+     transform: translateY(-2px);
+     transition: transform 34ms;
+}

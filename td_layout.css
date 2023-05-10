@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* Window and Body Styles */
+/*Logo Style*/
+ .logocontainer {
+     position: relative;
+}
+ #phage {
+     width:100px;
+     height: auto;
+     position: center-top;
+     -webkit-filter: invert(1);
+     filter: invert(1);
+}
+ #text-logo {
+     width:500px;
+     height: auto;
+     padding: 10px 10px 10px 10px;
+}
+ body {
+     width: 95%;
+     min-width: 640px;
+     max-width: 960px;
+     min-height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+}
+/* Row Styles */
+ .row::after {
+     clear:both;
+     content: "";
+     display: table;
+}
+/* Page Header Styles */
+ body > header > img {
+     float: left;
+     width: 70%;
+     display: block;
+     padding-top:none;
+}
+ body > header >nav {
+     float: left;
+     padding-left: 2%;
+     padding-right: 2%;
+     width: 30%;
+}
+/* Horizontal Navigation List Styles */
+ nav.horizontal li {
+     display: inline;
+     float: left;
+     width: 20%;
+}
+ #page-container {
+     position: relative;
+     min-height: 75vh;
+}
+ #content-wrap {
+     padding-bottom: 2.5rem;
+}
+/* Style inputs */
+ input[type=text], select {
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+}
+ fieldset {
+     border: 0;
+}
+ button {
+     background: transparent;
+     border: none;
+     display: block;
+     margin: 5px auto;
+}
+/*Footer Style*/
+ footer {
+     position: absolute;
+     clear: both;
+     padding: 10px 10px 0px 10px;
+     bottom: 0;
+     width: 100%;
+}
+ 

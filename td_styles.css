@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* Window and Body Style */
+ html {
+     background-color: #0b0b0b;
+}
+ body {
+     background-color: #272727;
+     font-family: sans-serif;
+     text-align: center;
+     color: white;
+}
+ nav.horizontal > .active > a {
+     font-weight: bold;
+     color: white;
+     text-decoration:none;
+}
+/* Horizontal Navigation List Styles */
+ nav.horizontal li {
+     list-style: none;
+     background-color: #f72c51;
+     font-size: 20px;
+     padding: 5px 0px 5px;
+     text-align: center;
+     box-shadow: 0px 3px 0px 0px #000000;
+}
+ nav.horizontal a:link, nav.horizontal a:visited {
+     color: #000000;
+}
+ nav.horizontal a:hover {
+     color: #FFFFFF;
+}
+/* Footer Styles */
+ footer {
+     background-color: #9b2ee4;
+     font-size: 15px;
+     box-shadow: 0px 3px 0px 0px #000000;
+     height: 50px;
+}
+ 

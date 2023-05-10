@@ -1,0 +1,15 @@
+@charset "utf-8";
+ #centerbox {
+     padding-top: 10px;
+     width: 100%;
+     text-align: center;
+     height: 550px;
+}
+ img {
+     padding: 5px;
+}
+ #topdesc{
+     padding-bottom: 40px;
+     clear:both;
+}
+ 
